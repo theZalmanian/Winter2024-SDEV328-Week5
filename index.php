@@ -8,7 +8,11 @@
 
     // define a default route for the project
     $f3->route("GET /", function() {
-        echo "Week 5";
+        // create a new view object
+        $view = new Template();
+
+        // display file at following path
+        echo $view->render("views/home.html");
     });
 
     // run Fat-Free Framework
