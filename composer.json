@@ -1,0 +1,13 @@
+{
+  "name": "Winter2024-SDEV328-Week5",
+  "description": "Test project for Thursday, Feb 2nd",
+  "authors": [
+    {
+      "name": "Zalman I.",
+      "email": "syntaxwarden@protonmail.com"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
